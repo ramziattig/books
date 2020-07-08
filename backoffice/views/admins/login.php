@@ -57,7 +57,7 @@ if (isset($_SESSION['email']) && !empty($_SESSION['email'])) {
 
         <form method="POST" action="../../controllers/userController.php?event=login">
             <div class="form-row">
-                <div class="col">
+                <div class="col-md-6">
                     <div class="form-group">
                         <label for="email">Email :</label>
                         <input type="email" name="email" id="email" class="form-control">
@@ -65,7 +65,7 @@ if (isset($_SESSION['email']) && !empty($_SESSION['email'])) {
                 </div>
             </div>
             <div class="form-row">
-                <div class="col">
+                <div class="col-md-6">
                     <div class="form-group">
                         <label for="password">Password :</label>
                         <input type="password" name="password" id="password" class="form-control">
@@ -73,7 +73,7 @@ if (isset($_SESSION['email']) && !empty($_SESSION['email'])) {
                 </div>
             </div>
             <div class="form-row">
-                <div class="col">
+                <div class="col-md-6">
                     <div class="form-group">
                         <input type="submit" value="Login" class="btn btn-primary">
                     </div>
